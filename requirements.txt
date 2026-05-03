@@ -1,0 +1,11 @@
+pandas
+openpyxl
+streamlit
+qdrant-client
+sentence-transformers
+transformers
+torch
+scikit-learn
+python-dotenv
+openai
+matplotlib
