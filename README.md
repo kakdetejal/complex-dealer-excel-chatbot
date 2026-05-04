@@ -22,22 +22,22 @@ OpenAI GPT (gpt-4o-mini) – LLM fallback
 Regex & Rule-based NLP – Query understanding
 
 # How It Works
-Excel Parsing
-Dynamically detects headers and cleans messy Excel sheets
-Converts data into structured Pandas DataFrames
-Query Understanding
-Cleans user input (removes symbols, normalizes text)
-Detects intent (sum, average, max, etc.)
-Maps business terms (e.g., “P&L” → “Total Revenue”)
-Data Retrieval
-Uses keyword-based scoring to find the most relevant row
-Extracts monthly values and performs calculations
-Response Generation
-Formats results into readable output (e.g., monthly breakdown, currency)
-Falls back to GPT if structured data cannot answer the query
-Conversational Interface
-Maintains chat history
-Supports follow-up queries using previous context
+-Excel Parsing
+-Dynamically detects headers and cleans messy Excel sheets
+-Converts data into structured Pandas DataFrames
+-Query Understanding
+-Cleans user input (removes symbols, normalizes text)
+-Detects intent (sum, average, max, etc.)
+-Maps business terms (e.g., “P&L” → “Total Revenue”)
+-Data Retrieval
+-Uses keyword-based scoring to find the most relevant row
+-Extracts monthly values and performs calculations
+-Response Generation
+-Formats results into readable output (e.g., monthly breakdown, currency)
+-Falls back to GPT if structured data cannot answer the query
+-Conversational Interface
+-Maintains chat history
+-Supports follow-up queries using previous context
 
 # Key Design Decision
 
